@@ -1,0 +1,35 @@
+{
+    "name": "melon-api-functions",
+    "version": "0.0.1",
+    "description": "melon-api-functions",
+    "main": "index.js",
+    "scripts": {
+        "build": "node build/build.js",
+        "dev": "node build/dev.js",
+        "test": "mocha test/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/imingyu/melon-api-functions.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/imingyu/melon-api-functions/issues"
+    },
+    "homepage": "https://github.com/imingyu/melon-api-functions#readme",
+    "dependencies": {
+        "moment": "^2.18.1"
+    },
+    "devDependencies": {
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-es2015": "^6.24.1",
+        "chai": "^4.1.1",
+        "rollup": "^0.47.4",
+        "rollup-plugin-babel": "^2.7.1",
+        "rollup-plugin-commonjs": "^8.1.0",
+        "rollup-plugin-json": "^2.3.0",
+        "rollup-plugin-node-resolve": "^3.0.0",
+        "watch": "^1.0.2"
+    }
+}
