@@ -1,3 +1,4 @@
+// 数据判断
 import moment from 'moment';
 import { toString, slice, hasOwnProperty } from './var.js';
 
