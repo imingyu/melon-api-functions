@@ -6,7 +6,7 @@ var commonjs = require('rollup-plugin-commonjs');
 var path = require('path')
 
 module.exports = {
-    entry: path.resolve(__dirname, './src/index.js'),
+    entry: path.resolve(__dirname, './modules/index.js'),
     dest: path.resolve(__dirname, './dist/index.js'),
     format: 'umd',
     moduleName: 'MelonApiFunctions',
